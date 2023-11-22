@@ -2,8 +2,8 @@
     background-color: rgb(23, 0, 60);
     font-family:'Courier New', Courier, monospace, serif;
     color: white;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .Title.Main {
@@ -13,7 +13,7 @@
 
 img {
     height: auto;
-    width: 40%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -31,4 +31,27 @@ strong {
 
 li {
     margin-top: 2%;
+}
+/*
+ol ul {
+    list-style: square;
+}
+*/
+
+ol ul li {
+    margin-top: 20px;
+}
+
+.Inner_step {
+    width: 320px;
+    margin-left: -60px;
+}
+
+ol h3 {
+    width: 300px;
+    text-align: center;
+}
+
+ol {
+    margin-left: -8%;
 }

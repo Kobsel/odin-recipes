@@ -4,10 +4,14 @@
 }
 
 .Title.Main {
+    padding: 18px;
     text-align: center;
     color: white;
     font-size: 50px;
+    
     background-color: rgb(20, 20, 20)
+    
+    
 }
 
 .List.Main {
@@ -17,5 +21,41 @@
 }
 
 a {
+
+    width: 84%;
+    padding: 11px;
+    border: 4px solid white;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin: 8px;
     color: white;
+    text-decoration: dotted;
+    background-color: rgb(20, 20, 20);
+    display: inline-block;
+    
+    
+
+}
+/*
+
+li {
+    padding: 11px;
+    margin: 10px;
+    border: 4px solid white
+    
+
+    
+}
+*/
+
+a:hover {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
